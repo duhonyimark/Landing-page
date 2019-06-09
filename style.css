@@ -1,0 +1,30 @@
+html {
+  background: url(/img/LandingStock_image_27.jpg) center center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.div-head {
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+button {
+  margin-top: 100px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: darkgray;
+  transform: scale(1.1, 1.1);
+}
